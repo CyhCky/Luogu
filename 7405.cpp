@@ -24,6 +24,8 @@ int main()
 {
     int n=read(),q=read();
     __int128_t last=(1ll<<63);
+    // printf("test=%lld\n",~(1ll<<63));
+
     for(int i=1;i<=n;i++)
     {
         __int128_t x=read();
